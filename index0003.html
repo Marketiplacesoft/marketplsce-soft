@@ -34,7 +34,7 @@
     <p>Encontre as melhores oportunidades profissionais atualizadas diariamente.</p>
 
     <div class="search-container">
-        <input type="text" placeholder="Pesquisar vaga por cargo, empresa ou província..." class="search-input">
+        <input type="search" placeholder="Pesquisar vaga por cargo, empresa ou província..." class="search-input">
         <button class="search-btn">Pesquisar</button>
     </div>
 </section>
@@ -45,6 +45,24 @@
         <option>Luanda</option>
         <option>Benguela</option>
         <option>Huíla</option>
+        <option>Namibe</option>
+        <option>Huambo</option>
+        <option>Cabinda</option>
+        <option>Zaire</option>
+        <option>Uíge</option>
+        <option>Bengo</option>
+        <option>Cuanza Norte</option>
+        <option>Cuanza Sul</option>
+        <option>Malanje</option>
+        <option>Lunda Norte</option>
+        <option>Lunda Sul</option>
+        <option>Bié</option>
+        <option>Moxico</option>
+        <option>Cunene</option>
+        <option>Cuando</option>
+        <option>Cubango</option>
+        <option>Moxico Leste</option>
+        <option>Icolo e Bengo</option>
     </select>
 
     <select>
@@ -107,9 +125,9 @@
 <section class="contact">
         <div class="container">
             <h2>Fale Conosco</h2>
-            <form action="#" method="POST">
-                <input type="text" name="nome" placeholder="Seu nome" required>
-                <input type="email" name="email" placeholder="Seu email" required>
+            <form action="#" method="POST" autocomplete="on">
+                <input type="text" name="nome" placeholder="Seu nome" required autocomplete="name">
+                <input type="email" name="email" placeholder="Seu email" required autocomplete="email">
                 <textarea name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
                 <button type="submit">Enviar</button>
             </form>

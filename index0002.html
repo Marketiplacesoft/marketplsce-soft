@@ -32,8 +32,10 @@
     <p>Descubra oportunidades nacionais e internacionais para transformar o seu futuro académico.</p>
 
     <div class="search-container">
-        <input type="text" placeholder="Pesquisar por país, instituição ou nível..." class="search-input">
-        <button class="search-btn">Pesquisar</button>
+        <form action="#" autocomplete="on">
+            <input type="search" placeholder="Pesquisar por país, instituição ou nível..." class="search-input">
+            <button class="search-btn">Pesquisar</button>
+        </form>
     </div>
 </section>
 <section class="filtros-bolsas">
@@ -104,9 +106,9 @@
      <section class="contact">
         <div class="container">
             <h2>Fale Conosco</h2>
-            <form action="#" method="POST">
-                <input type="text" name="nome" placeholder="Seu nome" required>
-                <input type="email" name="email" placeholder="Seu email" required>
+            <form action="#" method="POST" autocomplete="on">
+                <input type="text" name="nome" placeholder="Seu nome" required autocomplete="name">
+                <input type="email" name="email" placeholder="Seu email" required autocomplete="email">
                 <textarea name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
                 <button type="submit">Enviar</button>
             </form>
