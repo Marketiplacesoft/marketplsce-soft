@@ -42,6 +42,7 @@
         <h2>Bolsas de Estudo Internacionais</h2>
         <p>Descubra como estudar fora sem gastar nada.</p>
     </div>
+    
 </section>
 
 <!-- Main -->
@@ -55,10 +56,24 @@
         </div>
     </section>
 
-    <form action="#" method="post" autocomplete="on">
-    <input type="search" name="pesquisar" id="ipesquisar">
-    <input type="submit" value="Pesquisar">
-    </form>
+    <section class="search-section">
+    <div class="container">
+        <form class="search-bar" action="pesquisa.php" method="GET">
+
+            <input type="search" name="q" placeholder="Pesquisar concursos, bolsas, vagas e materiais..." required>
+
+            <select name="categoria">
+                <option value="todos">Todas categorias</option>
+                <option value="concursos">Concursos</option>
+                <option value="vagas">Vagas</option>
+                <option value="bolsas">Bolsas</option>
+                <option value="materiais">Materiais</option>
+            </select>
+
+            <button type="submit">Pesquisar</button>
+        </form>
+    </div>
+</section>
 
     <!-- Serviços / Destaques -->
     <section id="services" class="services">
