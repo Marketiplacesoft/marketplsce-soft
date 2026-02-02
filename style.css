@@ -181,6 +181,8 @@ nav ul.menu li a:hover {
 /* Artigos / Notícias */
 .articles {
     padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .articles article {
