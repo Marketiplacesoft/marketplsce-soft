@@ -21,7 +21,6 @@ header {
     z-index: 9999;
 }
 
-
 header h1 {
     font-size: 25px;
 }
@@ -149,6 +148,11 @@ nav ul.menu li a:hover {
     padding: 30px 0;
     margin-top: -40px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin: 30px 0;
+    flex-wrap: wrap;
 }
 
 /* Serviços / Destaques */
