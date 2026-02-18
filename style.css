@@ -19,6 +19,7 @@ header {
     background-color: #36da7a;
     position: relative;
     z-index: 9999;
+    
 }
 
 header h1 {
@@ -114,6 +115,7 @@ nav ul.menu li a:hover {
     color: white;
     padding: 5px 0;
     text-align: center;
+    display: none;
 }
 
 .hero h1 {
@@ -148,11 +150,13 @@ nav ul.menu li a:hover {
     padding: 30px 0;
     margin-top: -40px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-    display: flex;
+    display: inline-block;
     gap: 15px;
     justify-content: center;
     margin: 30px 0;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    width: 100vw;
+    
 }
 
 /* Serviços / Destaques */
