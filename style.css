@@ -141,10 +141,19 @@ nav ul.menu li a:hover {
 
 .btn:hover {
     background-color: #1e8449;
-    color: white;
+    color: white;  
 }
 
 /*seacher*/
+
+#barradepesquisa {
+        display: inline-block;
+        background-color: #007bff;
+        padding: 20px;
+        box-shadow: 4px 4px rgba(0, 0, 0, 0.267);
+        border-radius: 5px;
+    }
+
 .search-section {
     background: white;
     padding: 30px 0;
@@ -301,9 +310,7 @@ footer a {
     .hero h1 {
         font-size: 28px;
     }
-    #barradepesquisa {
-        display: inline-block;
-    }
+    
 }
 /* Carrinho */
 .cart {
