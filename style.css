@@ -173,7 +173,8 @@ nav ul.menu li a:hover {
 #servicodedestaque {
     display: flex;
     flex-wrap: wrap;
-    
+    justify-content: space-between;
+    gap: 20px;
 }
 .services {
     display: flex;
@@ -190,6 +191,7 @@ nav ul.menu li a:hover {
     border-radius: 8px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.1);
     transition: transform 0.3s;
+    min-width: 200px;
 }
 
 .service-card:hover {
@@ -202,10 +204,17 @@ nav ul.menu li a:hover {
 }
 
 /* Artigos / Notícias */
+#artigosdenoticias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
 .articles {
     padding: 40px 0;
     display: flex;
     flex-wrap: wrap;
+    min-width: 100px;
 }
 
 p {
