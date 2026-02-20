@@ -301,6 +301,9 @@ footer a {
     .hero h1 {
         font-size: 28px;
     }
+    #barradepesquisa {
+        display: inline-block;
+    }
 }
 /* Carrinho */
 .cart {
