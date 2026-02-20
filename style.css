@@ -152,7 +152,7 @@ nav ul.menu li a:hover {
         padding: 20px;
         box-shadow: 4px 4px rgba(0, 0, 0, 0.267);
         border-radius: 5px;
-        
+        margin-left: 20px;
     }
 
 .search-section {
